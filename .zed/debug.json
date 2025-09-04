@@ -1,0 +1,154 @@
+[
+  {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Dev Server",
+        "type": "node",
+        "request": "launch",
+        "adapter": "node",
+        "program": "${workspaceFolder}/node_modules/.bin/vite",
+        "args": ["--mode", "development"],
+        "env": {
+          "NODE_ENV": "development"
+        },
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "skipFiles": ["<node_internals>/**"]
+      },
+      {
+        "name": "Debug Chrome",
+        "type": "chrome",
+        "request": "launch",
+        "adapter": "chrome",
+        "url": "http://localhost:5173",
+        "webRoot": "${workspaceFolder}/src",
+        "sourceMapPathOverrides": {
+          "webpack:///src/*": "${webRoot}/*",
+          "webpack:///./*": "${webRoot}/*",
+          "webpack:///./src/*": "${webRoot}/*",
+          "/./*": "${webRoot}/*",
+          "/src/*": "${webRoot}/*",
+          "/*": "*",
+          "/./~/*": "${webRoot}/node_modules/*"
+        },
+        "smartStep": true,
+        "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"]
+      },
+      {
+        "name": "Debug Firefox",
+        "type": "firefox",
+        "request": "launch",
+        "adapter": "firefox",
+        "url": "http://localhost:5173",
+        "webRoot": "${workspaceFolder}/src",
+        "pathMappings": [
+          {
+            "url": "webpack:///src",
+            "path": "${webRoot}"
+          },
+          {
+            "url": "webpack:///./src",
+            "path": "${webRoot}"
+          },
+          {
+            "url": "/src",
+            "path": "${webRoot}"
+          }
+        ],
+        "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"],
+        "firefoxExecutable": "/Applications/Firefox Developer Edition.app/Contents/MacOS/firefox"
+      },
+      {
+        "name": "Attach to Firefox",
+        "type": "firefox",
+        "request": "attach",
+        "adapter": "firefox",
+        "url": "http://localhost:5173",
+        "webRoot": "${workspaceFolder}/src",
+        "pathMappings": [
+          {
+            "url": "webpack:///src",
+            "path": "${webRoot}"
+          },
+          {
+            "url": "webpack:///./src",
+            "path": "${webRoot}"
+          },
+          {
+            "url": "/src",
+            "path": "${webRoot}"
+          }
+        ],
+        "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"]
+      },
+      {
+        "name": "Debug Tests",
+        "type": "node",
+        "request": "launch",
+        "adapter": "node",
+        "program": "${workspaceFolder}/node_modules/.bin/vitest",
+        "args": ["--run"],
+        "env": {
+          "NODE_ENV": "test"
+        },
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "skipFiles": ["<node_internals>/**"]
+      },
+      {
+        "name": "Debug Tests (Watch)",
+        "type": "node",
+        "request": "launch",
+        "adapter": "node",
+        "program": "${workspaceFolder}/node_modules/.bin/vitest",
+        "args": ["--watch"],
+        "env": {
+          "NODE_ENV": "test"
+        },
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "skipFiles": ["<node_internals>/**"]
+      },
+      {
+        "name": "Attach to Chrome",
+        "type": "chrome",
+        "request": "attach",
+        "adapter": "chrome",
+        "port": 9222,
+        "webRoot": "${workspaceFolder}/src",
+        "sourceMapPathOverrides": {
+          "webpack:///src/*": "${webRoot}/*",
+          "webpack:///./*": "${webRoot}/*",
+          "webpack:///./src/*": "${webRoot}/*",
+          "/./*": "${webRoot}/*",
+          "/src/*": "${webRoot}/*",
+          "/*": "*",
+          "/./~/*": "${webRoot}/node_modules/*"
+        }
+      }
+    ],
+    "compounds": [
+      {
+        "name": "Launch App & Debug (Chrome)",
+        "configurations": ["Launch Dev Server", "Debug Chrome"],
+        "stopAll": true,
+        "presentation": {
+          "hidden": false,
+          "group": "development",
+          "order": 1
+        }
+      },
+      {
+        "name": "Launch App & Debug (Firefox)",
+        "configurations": ["Launch Dev Server", "Debug Firefox"],
+        "stopAll": true,
+        "presentation": {
+          "hidden": false,
+          "group": "development",
+          "order": 2
+        }
+      }
+    ]
+  }
+]
