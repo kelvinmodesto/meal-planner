@@ -12,23 +12,51 @@ const CalendarContainer = styled.div`
   border-radius: 16px;
   padding: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+
+  @media (max-width: 1024px) {
+    padding: 1.5rem;
+    width: 746px;
+  }
 
   @media (max-width: 768px) {
     padding: 1rem;
+    border-radius: 12px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.75rem;
+    border-radius: 8px;
+    width: 349px;
   }
 `;
 
 const CalendarGridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 1rem;
+  overflow: hidden;
+  width: 100%;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 
   @media (max-width: 1024px) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
   }
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
   }
 `;
 
@@ -37,6 +65,26 @@ const DayColumn = styled.div`
   flex-direction: column;
   gap: 1rem;
   min-height: 400px;
+  max-height: 600px;
+  overflow: hidden;
+  min-width: 0;
+
+  @media (max-width: 1024px) {
+    min-height: 350px;
+    max-height: 500px;
+  }
+
+  @media (max-width: 768px) {
+    min-height: 300px;
+    max-height: 450px;
+    gap: 0.75rem;
+  }
+
+  @media (max-width: 480px) {
+    min-height: auto;
+    max-height: none;
+    gap: 0.5rem;
+  }
 `;
 
 const DayHeader = styled.div`
@@ -48,15 +96,33 @@ const DayHeader = styled.div`
   background: rgba(255, 255, 255, 0.15);
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  min-width: 0;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    padding: 0.625rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
 `;
 
 const DayName = styled.div`
   margin-bottom: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;
 
 const DayDate = styled.div`
   font-size: 0.9rem;
   opacity: 0.8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;
 
 const MealSection = styled.div`
@@ -67,6 +133,17 @@ const MealSection = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    padding: 0.75rem;
+    border-radius: 8px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.625rem;
+  }
 `;
 
 const MealTypeHeader = styled.div`
@@ -79,6 +156,8 @@ const MealTypeHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 0;
+  gap: 0.5rem;
 `;
 
 const MealType = styled.span<{ mealType: string }>`
@@ -94,6 +173,10 @@ const MealType = styled.span<{ mealType: string }>`
         return "white";
     }
   }};
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 `;
 
 const AddMealButton = styled.button`
@@ -107,6 +190,9 @@ const AddMealButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  min-width: 28px;
+  min-height: 28px;
 
   &:hover {
     background: rgba(255, 255, 255, 0.3);
@@ -119,6 +205,27 @@ const MealsList = styled.div`
   flex-direction: column;
   gap: 0.5rem;
   flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  max-height: 200px;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
 `;
 
 const MealItem = styled.div`
@@ -135,12 +242,30 @@ const MealItem = styled.div`
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-1px);
   }
+
+  @media (max-width: 768px) {
+    padding: 0.625rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.5rem;
+  }
 `;
 
 const MealName = styled.div`
   font-weight: 500;
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.3;
+  max-width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;
 
 const MealDetails = styled.div`
@@ -149,12 +274,28 @@ const MealDetails = styled.div`
   align-items: center;
   opacity: 0.8;
   font-size: 0.8rem;
+  min-width: 0;
+  flex-shrink: 0;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
 `;
 
 const MealInfo = styled.div`
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+
+  @media (max-width: 480px) {
+    flex-wrap: wrap;
+    gap: 0.375rem;
+  }
 `;
 
 const MealActions = styled.div`
@@ -165,6 +306,10 @@ const MealActions = styled.div`
 
   ${MealItem}:hover & {
     opacity: 1;
+  }
+
+  @media (max-width: 480px) {
+    opacity: 0.7;
   }
 `;
 
@@ -196,10 +341,25 @@ const EmptyState = styled.div`
   text-align: center;
   flex: 1;
   gap: 0.5rem;
-  min-height: 80px;
+  min-height: 60px;
+  max-height: 100px;
   border: 2px dashed rgba(255, 255, 255, 0.2);
   border-radius: 8px;
-  padding: 1rem;
+  padding: 0.75rem;
+
+  @media (max-width: 768px) {
+    min-height: 50px;
+    max-height: 80px;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  @media (max-width: 480px) {
+    min-height: 40px;
+    max-height: 60px;
+    padding: 0.375rem;
+    gap: 0.25rem;
+  }
 `;
 
 const CaloriesBadge = styled.div`
@@ -209,6 +369,8 @@ const CaloriesBadge = styled.div`
   padding: 0.2rem 0.5rem;
   border-radius: 12px;
   font-weight: 500;
+  white-space: nowrap;
+  flex-shrink: 0;
 `;
 
 interface CalendarGridProps {
@@ -217,13 +379,8 @@ interface CalendarGridProps {
 }
 
 export function CalendarGrid({ currentWeek, weekPlan }: CalendarGridProps) {
-  const {
-    getWeekDates,
-    getDateKey,
-    addMealToDay,
-    removeMealFromDay,
-    getAvailableMealsByType,
-  } = useMealPlanner();
+  const { getWeekDates, getDateKey, addMealToDay, removeMealFromDay } =
+    useMealPlanner();
 
   const getMealsForDay = (dateKey: string) => {
     return weekPlan[dateKey] || [];

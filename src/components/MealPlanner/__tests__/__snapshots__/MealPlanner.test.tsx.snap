@@ -1,0 +1,61 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MealPlanner > matches snapshot for loaded state 1`] = `
+<div
+  class="css-341sce-PlannerContainer eucoc9f2"
+>
+  <div
+    data-testid="meal-planner-header"
+  >
+    Meal Planner Header
+  </div>
+  <div
+    data-testid="meal-planner-stats"
+  >
+    Stats: 
+    5
+     meals
+  </div>
+  <div
+    class="css-18i6eb7-MainContent eucoc9f1"
+  >
+    <div
+      class="css-1vm3377-LeftSection eucoc9f0"
+    >
+      <div
+        data-testid="week-navigation"
+      >
+        Week: 
+        2024-01-15
+      </div>
+      <div
+        data-testid="calendar-grid"
+      >
+        Calendar for 
+        2024-01-15
+         with
+         
+        1
+         planned days
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MealPlanner > matches snapshot for loading state 1`] = `
+<div
+  class="css-341sce-PlannerContainer eucoc9f2"
+>
+  <div
+    data-testid="meal-planner-header"
+  >
+    Meal Planner Header
+  </div>
+  <div
+    style="color: white; text-align: center; padding: 2rem;"
+  >
+    Loading meal planner...
+  </div>
+</div>
+`;

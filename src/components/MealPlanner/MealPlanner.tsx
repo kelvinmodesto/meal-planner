@@ -9,16 +9,31 @@ const PlannerContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  @media (max-width: 1024px) {
+    gap: 1.75rem;
+  }
+
+  @media (max-width: 768px) {
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 480px) {
+    gap: 1.25rem;
+  }
 `;
 
 const MainContent = styled.div`
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
   gap: 2rem;
   align-items: start;
 
-  @media (max-width: 1200px) {
-    grid-template-columns: 1fr;
+  @media (max-width: 768px) {
+    width: 746px;
+  }
+
+  @media (max-width: 480px) {
+    width: 349px;
   }
 `;
 
@@ -26,12 +41,19 @@ const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-`;
+  min-width: 0;
 
-const RightSection = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  @media (max-width: 1024px) {
+    gap: 1.25rem;
+  }
+
+  @media (max-width: 768px) {
+    gap: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    gap: 0.75rem;
+  }
 `;
 
 export function MealPlanner() {

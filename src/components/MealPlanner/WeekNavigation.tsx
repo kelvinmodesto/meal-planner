@@ -1,11 +1,5 @@
 import styled from "@emotion/styled";
-import {
-  Calendar,
-  ChevronLeft,
-  ChevronRight,
-  RotateCcw,
-  Copy,
-} from "lucide-react";
+import { Calendar, ChevronLeft, ChevronRight, RotateCcw } from "lucide-react";
 import { useMealPlanner } from "@/contexts/MealPlannerContext";
 
 const WeekNavigationSection = styled.div`
@@ -19,10 +13,20 @@ const WeekNavigationSection = styled.div`
   align-items: center;
   color: white;
 
+  @media (max-width: 1024px) {
+    padding: 1.25rem;
+  }
+
   @media (max-width: 768px) {
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.75rem;
+    border-radius: 8px;
+    gap: 0.75rem;
   }
 `;
 
@@ -34,6 +38,11 @@ const WeekInfo = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     text-align: center;
+    gap: 0.5rem;
+  }
+
+  @media (max-width: 480px) {
+    gap: 0.375rem;
   }
 `;
 
@@ -46,6 +55,11 @@ const WeekTitle = styled.h2`
 
   @media (max-width: 768px) {
     font-size: 1.1rem;
+    justify-content: center;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
   }
 `;
 
@@ -53,6 +67,10 @@ const WeekDateRange = styled.div`
   font-size: 1rem;
   opacity: 0.8;
   font-weight: 500;
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
 `;
 
 const NavigationControls = styled.div`
@@ -63,6 +81,11 @@ const NavigationControls = styled.div`
   @media (max-width: 768px) {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  @media (max-width: 480px) {
     gap: 0.5rem;
   }
 `;
@@ -90,6 +113,15 @@ const NavButton = styled.button`
     cursor: not-allowed;
     transform: none;
   }
+
+  @media (max-width: 768px) {
+    padding: 0.625rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.5rem;
+    min-width: 40px;
+  }
 `;
 
 const ActionButton = styled.button`
@@ -111,8 +143,17 @@ const ActionButton = styled.button`
   }
 
   @media (max-width: 768px) {
-    padding: 0.6rem 0.8rem;
+    padding: 0.625rem 0.875rem;
+    font-size: 0.85rem;
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.5rem 0.75rem;
     font-size: 0.8rem;
+    gap: 0.375rem;
   }
 `;
 

@@ -1,0 +1,1846 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CalendarGrid > matches snapshot 1`] = `
+<div
+  class="css-1axij6k-CalendarContainer e13uyeo18"
+>
+  <div
+    class="css-10f0kmt-CalendarGridContainer e13uyeo17"
+  >
+    <div
+      class="css-4nkvlf-DayColumn e13uyeo16"
+    >
+      <div
+        class="css-1fofana-DayHeader e13uyeo15"
+        style="background: rgba(255, 255, 255, 0.15);"
+      >
+        <div
+          class="css-3e17dh-DayName e13uyeo14"
+        >
+          Sunday
+        </div>
+        <div
+          class="css-z02ihv-DayDate e13uyeo13"
+        >
+          Jan 14
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-4db7xb-MealType e13uyeo10"
+          >
+            breakfast
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add breakfast meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-ivz2vn-MealItem e13uyeo7"
+          >
+            <div
+              class="css-17ymqyv-MealName e13uyeo6"
+            >
+              Scrambled Eggs with Toast
+            </div>
+            <div
+              class="css-cdwb1e-MealDetails e13uyeo5"
+            >
+              <div
+                class="css-q2oaj1-MealInfo e13uyeo4"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-clock"
+                  fill="none"
+                  height="12"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 6v6l4 2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                  />
+                </svg>
+                15
+                min
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-users"
+                  fill="none"
+                  height="12"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                  />
+                  <path
+                    d="M16 3.128a4 4 0 0 1 0 7.744"
+                  />
+                  <path
+                    d="M22 21v-2a4 4 0 0 0-3-3.87"
+                  />
+                  <circle
+                    cx="9"
+                    cy="7"
+                    r="4"
+                  />
+                </svg>
+                2
+                <div
+                  class="css-1yr22cs-CaloriesBadge e13uyeo0"
+                >
+                  350
+                   cal
+                </div>
+              </div>
+              <div
+                class="css-1tfia7s-MealActions e13uyeo3"
+              >
+                <button
+                  class="css-urd8af-ActionButton e13uyeo2"
+                  title="Remove meal"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-x"
+                    fill="none"
+                    height="10"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18 6 6 18"
+                    />
+                    <path
+                      d="m6 6 12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-1c9q1wg-MealType e13uyeo10"
+          >
+            lunch
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add lunch meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-ivz2vn-MealItem e13uyeo7"
+          >
+            <div
+              class="css-17ymqyv-MealName e13uyeo6"
+            >
+              Chicken Caesar Salad
+            </div>
+            <div
+              class="css-cdwb1e-MealDetails e13uyeo5"
+            >
+              <div
+                class="css-q2oaj1-MealInfo e13uyeo4"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-clock"
+                  fill="none"
+                  height="12"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 6v6l4 2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                  />
+                </svg>
+                20
+                min
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-users"
+                  fill="none"
+                  height="12"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                  />
+                  <path
+                    d="M16 3.128a4 4 0 0 1 0 7.744"
+                  />
+                  <path
+                    d="M22 21v-2a4 4 0 0 0-3-3.87"
+                  />
+                  <circle
+                    cx="9"
+                    cy="7"
+                    r="4"
+                  />
+                </svg>
+                4
+                <div
+                  class="css-1yr22cs-CaloriesBadge e13uyeo0"
+                >
+                  450
+                   cal
+                </div>
+              </div>
+              <div
+                class="css-1tfia7s-MealActions e13uyeo3"
+              >
+                <button
+                  class="css-urd8af-ActionButton e13uyeo2"
+                  title="Remove meal"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-x"
+                    fill="none"
+                    height="10"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18 6 6 18"
+                    />
+                    <path
+                      d="m6 6 12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-12emaii-MealType e13uyeo10"
+          >
+            dinner
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add dinner meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              dinner
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-4nkvlf-DayColumn e13uyeo16"
+    >
+      <div
+        class="css-1fofana-DayHeader e13uyeo15"
+        style="background: rgba(255, 255, 255, 0.15);"
+      >
+        <div
+          class="css-3e17dh-DayName e13uyeo14"
+        >
+          Monday
+        </div>
+        <div
+          class="css-z02ihv-DayDate e13uyeo13"
+        >
+          Jan 15
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-4db7xb-MealType e13uyeo10"
+          >
+            breakfast
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add breakfast meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              breakfast
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-1c9q1wg-MealType e13uyeo10"
+          >
+            lunch
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add lunch meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              lunch
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-12emaii-MealType e13uyeo10"
+          >
+            dinner
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add dinner meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-ivz2vn-MealItem e13uyeo7"
+          >
+            <div
+              class="css-17ymqyv-MealName e13uyeo6"
+            >
+              Beef Stir Fry
+            </div>
+            <div
+              class="css-cdwb1e-MealDetails e13uyeo5"
+            >
+              <div
+                class="css-q2oaj1-MealInfo e13uyeo4"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-clock"
+                  fill="none"
+                  height="12"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 6v6l4 2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                  />
+                </svg>
+                30
+                min
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-users"
+                  fill="none"
+                  height="12"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                  />
+                  <path
+                    d="M16 3.128a4 4 0 0 1 0 7.744"
+                  />
+                  <path
+                    d="M22 21v-2a4 4 0 0 0-3-3.87"
+                  />
+                  <circle
+                    cx="9"
+                    cy="7"
+                    r="4"
+                  />
+                </svg>
+                3
+                <div
+                  class="css-1yr22cs-CaloriesBadge e13uyeo0"
+                >
+                  520
+                   cal
+                </div>
+              </div>
+              <div
+                class="css-1tfia7s-MealActions e13uyeo3"
+              >
+                <button
+                  class="css-urd8af-ActionButton e13uyeo2"
+                  title="Remove meal"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-x"
+                    fill="none"
+                    height="10"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18 6 6 18"
+                    />
+                    <path
+                      d="m6 6 12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-4nkvlf-DayColumn e13uyeo16"
+    >
+      <div
+        class="css-1fofana-DayHeader e13uyeo15"
+        style="background: rgba(255, 255, 255, 0.15);"
+      >
+        <div
+          class="css-3e17dh-DayName e13uyeo14"
+        >
+          Tuesday
+        </div>
+        <div
+          class="css-z02ihv-DayDate e13uyeo13"
+        >
+          Jan 16
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-4db7xb-MealType e13uyeo10"
+          >
+            breakfast
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add breakfast meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              breakfast
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-1c9q1wg-MealType e13uyeo10"
+          >
+            lunch
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add lunch meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              lunch
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-12emaii-MealType e13uyeo10"
+          >
+            dinner
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add dinner meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              dinner
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-4nkvlf-DayColumn e13uyeo16"
+    >
+      <div
+        class="css-1fofana-DayHeader e13uyeo15"
+        style="background: rgba(255, 255, 255, 0.15);"
+      >
+        <div
+          class="css-3e17dh-DayName e13uyeo14"
+        >
+          Wednesday
+        </div>
+        <div
+          class="css-z02ihv-DayDate e13uyeo13"
+        >
+          Jan 17
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-4db7xb-MealType e13uyeo10"
+          >
+            breakfast
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add breakfast meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              breakfast
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-1c9q1wg-MealType e13uyeo10"
+          >
+            lunch
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add lunch meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              lunch
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-12emaii-MealType e13uyeo10"
+          >
+            dinner
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add dinner meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              dinner
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-4nkvlf-DayColumn e13uyeo16"
+    >
+      <div
+        class="css-1fofana-DayHeader e13uyeo15"
+        style="background: rgba(255, 255, 255, 0.15);"
+      >
+        <div
+          class="css-3e17dh-DayName e13uyeo14"
+        >
+          Thursday
+        </div>
+        <div
+          class="css-z02ihv-DayDate e13uyeo13"
+        >
+          Jan 18
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-4db7xb-MealType e13uyeo10"
+          >
+            breakfast
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add breakfast meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              breakfast
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-1c9q1wg-MealType e13uyeo10"
+          >
+            lunch
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add lunch meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              lunch
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-12emaii-MealType e13uyeo10"
+          >
+            dinner
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add dinner meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              dinner
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-4nkvlf-DayColumn e13uyeo16"
+    >
+      <div
+        class="css-1fofana-DayHeader e13uyeo15"
+        style="background: rgba(255, 255, 255, 0.15);"
+      >
+        <div
+          class="css-3e17dh-DayName e13uyeo14"
+        >
+          Friday
+        </div>
+        <div
+          class="css-z02ihv-DayDate e13uyeo13"
+        >
+          Jan 19
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-4db7xb-MealType e13uyeo10"
+          >
+            breakfast
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add breakfast meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              breakfast
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-1c9q1wg-MealType e13uyeo10"
+          >
+            lunch
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add lunch meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              lunch
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-12emaii-MealType e13uyeo10"
+          >
+            dinner
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add dinner meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              dinner
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-4nkvlf-DayColumn e13uyeo16"
+    >
+      <div
+        class="css-1fofana-DayHeader e13uyeo15"
+        style="background: rgba(255, 255, 255, 0.15);"
+      >
+        <div
+          class="css-3e17dh-DayName e13uyeo14"
+        >
+          Saturday
+        </div>
+        <div
+          class="css-z02ihv-DayDate e13uyeo13"
+        >
+          Jan 20
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-4db7xb-MealType e13uyeo10"
+          >
+            breakfast
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add breakfast meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              breakfast
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-1c9q1wg-MealType e13uyeo10"
+          >
+            lunch
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add lunch meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              lunch
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ystwjs-MealSection e13uyeo12"
+      >
+        <div
+          class="css-1i2tl3a-MealTypeHeader e13uyeo11"
+        >
+          <span
+            class="css-12emaii-MealType e13uyeo10"
+          >
+            dinner
+          </span>
+          <button
+            class="css-1982890-AddMealButton e13uyeo9"
+            title="Add dinner meal"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-lv7jif-MealsList e13uyeo8"
+        >
+          <div
+            class="css-mb03dk-EmptyState e13uyeo1"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-plus"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+            <div>
+              Add 
+              dinner
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

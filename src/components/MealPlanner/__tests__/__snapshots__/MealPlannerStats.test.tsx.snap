@@ -1,0 +1,201 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MealPlannerStats > matches snapshot 1`] = `
+<div
+  class="css-1ol42kb-StatsSection eiv88hr6"
+>
+  <div
+    class="css-140guw4-StatsGrid eiv88hr5"
+  >
+    <div
+      class="css-185pm14-StatCard eiv88hr4"
+    >
+      <div
+        class="css-14sezht-StatHeader eiv88hr3"
+      >
+        <div
+          class="css-14k6b8f-StatIcon eiv88hr2"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-target"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <circle
+              cx="12"
+              cy="12"
+              r="6"
+            />
+            <circle
+              cx="12"
+              cy="12"
+              r="2"
+            />
+          </svg>
+        </div>
+        <div
+          class="css-v5qx7o-StatLabel eiv88hr0"
+        >
+          Total Meals
+        </div>
+      </div>
+      <div
+        class="css-1gqhyno-StatValue eiv88hr1"
+      >
+        15
+      </div>
+    </div>
+    <div
+      class="css-185pm14-StatCard eiv88hr4"
+    >
+      <div
+        class="css-14sezht-StatHeader eiv88hr3"
+      >
+        <div
+          class="css-14k6b8f-StatIcon eiv88hr2"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-calendar"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 2v4"
+            />
+            <path
+              d="M16 2v4"
+            />
+            <rect
+              height="18"
+              rx="2"
+              width="18"
+              x="3"
+              y="4"
+            />
+            <path
+              d="M3 10h18"
+            />
+          </svg>
+        </div>
+        <div
+          class="css-v5qx7o-StatLabel eiv88hr0"
+        >
+          Planned Days
+        </div>
+      </div>
+      <div
+        class="css-1gqhyno-StatValue eiv88hr1"
+      >
+        5
+      </div>
+    </div>
+    <div
+      class="css-185pm14-StatCard eiv88hr4"
+    >
+      <div
+        class="css-14sezht-StatHeader eiv88hr3"
+      >
+        <div
+          class="css-14k6b8f-StatIcon eiv88hr2"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-clock"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 6v6l4 2"
+            />
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+          </svg>
+        </div>
+        <div
+          class="css-v5qx7o-StatLabel eiv88hr0"
+        >
+          Avg Cook Time
+        </div>
+      </div>
+      <div
+        class="css-1gqhyno-StatValue eiv88hr1"
+      >
+        35min
+      </div>
+    </div>
+    <div
+      class="css-185pm14-StatCard eiv88hr4"
+    >
+      <div
+        class="css-14sezht-StatHeader eiv88hr3"
+      >
+        <div
+          class="css-14k6b8f-StatIcon eiv88hr2"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-trending-up"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 7h6v6"
+            />
+            <path
+              d="m22 7-8.5 8.5-5-5L2 17"
+            />
+          </svg>
+        </div>
+        <div
+          class="css-v5qx7o-StatLabel eiv88hr0"
+        >
+          Total Calories
+        </div>
+      </div>
+      <div
+        class="css-1gqhyno-StatValue eiv88hr1"
+      >
+        12,500
+      </div>
+    </div>
+  </div>
+</div>
+`;

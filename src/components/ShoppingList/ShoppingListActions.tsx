@@ -90,10 +90,6 @@ export function ShoppingListActions({
 }: ShoppingListActionsProps) {
   return (
     <ActionsSection>
-      <ActionButton variant="primary" onClick={onGenerateFromMealPlan}>
-        <Package size={20} />
-        Generate from Meal Plan
-      </ActionButton>
       <ActionButton
         variant="secondary"
         onClick={onClearCompleted}

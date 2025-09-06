@@ -9,12 +9,36 @@ const StatsSection = styled.div`
   padding: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
+
+  @media (max-width: 768px) {
+    padding: 1.25rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 1rem;
+    border-radius: 8px;
+  }
 `;
 
 const StatsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
 `;
 
 const StatCard = styled.div`
@@ -29,6 +53,14 @@ const StatCard = styled.div`
     transform: translateY(-2px);
     background: rgba(255, 255, 255, 0.2);
   }
+
+  @media (max-width: 768px) {
+    padding: 1.25rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 1rem;
+  }
 `;
 
 const StatHeader = styled.div`
@@ -38,6 +70,12 @@ const StatHeader = styled.div`
   gap: 0.5rem;
   margin-bottom: 1rem;
   opacity: 0.9;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    gap: 0.375rem;
+    margin-bottom: 0.75rem;
+  }
 `;
 
 const StatIcon = styled.div`
@@ -55,11 +93,24 @@ const StatValue = styled.div`
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: #4ade80;
+
+  @media (max-width: 768px) {
+    font-size: 1.75rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+    margin-bottom: 0.375rem;
+  }
 `;
 
 const StatLabel = styled.div`
   font-size: 0.9rem;
   opacity: 0.8;
+
+  @media (max-width: 480px) {
+    font-size: 0.8rem;
+  }
 `;
 
 interface MealPlannerStatsProps {
@@ -97,7 +148,7 @@ export function MealPlannerStats({ stats }: MealPlannerStatsProps) {
           <StatCard key={index}>
             <StatHeader>
               <StatIcon>{stat.icon}</StatIcon>
-              {stat.label}
+              <StatLabel>{stat.label}</StatLabel>
             </StatHeader>
             <StatValue>{stat.value}</StatValue>
           </StatCard>

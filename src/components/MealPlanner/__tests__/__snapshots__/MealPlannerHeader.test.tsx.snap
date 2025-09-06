@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MealPlannerHeader > matches snapshot 1`] = `
+<div
+  class="css-1w1i09a-Header e1k0pbk62"
+>
+  <h1
+    class="css-ewphrt-Title e1k0pbk61"
+  >
+    Weekly Meal Planner
+  </h1>
+  <p
+    class="css-xtztbs-Subtitle e1k0pbk60"
+  >
+    Plan your meals for the entire week and stay organized with smart scheduling
+  </p>
+</div>
+`;
